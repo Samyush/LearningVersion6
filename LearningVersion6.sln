@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LearningVersion6", "LearningVersion6\LearningVersion6.csproj", "{11735D85-F8DA-4771-8FCC-67231CA15C37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LamdaLinq", "LamdaLinq\LamdaLinq.csproj", "{9328FDC4-09FB-4D97-8BC1-E062932D480C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11735D85-F8DA-4771-8FCC-67231CA15C37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11735D85-F8DA-4771-8FCC-67231CA15C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11735D85-F8DA-4771-8FCC-67231CA15C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11735D85-F8DA-4771-8FCC-67231CA15C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9328FDC4-09FB-4D97-8BC1-E062932D480C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9328FDC4-09FB-4D97-8BC1-E062932D480C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9328FDC4-09FB-4D97-8BC1-E062932D480C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9328FDC4-09FB-4D97-8BC1-E062932D480C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0926086-0AF7-4445-B3F5-FE2353545D2D}
+	EndGlobalSection
+EndGlobal

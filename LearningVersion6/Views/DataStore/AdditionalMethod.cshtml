@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "AdditionMethod";
+    ViewBag.Title = "Index";  
+
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<p>The data here is null</p>
+
+@model IEnumerable<LearningVersion6.Models.User>  
+  
+<h3>All Product List</h3>  
+<table border="1" class="table table-bordered table-responsive">  
+    <thead>  
+        <tr class="btn-primary">  
+            <th>ID</th>  
+            <th>Email</th>  
+            <th>Name</th>  
+            <th>Phone</th>  
+        </tr>  
+    </thead>  
+    <tbody>  
+        @foreach (var item in Model)  
+        {  
+            <tr>  
+                <td>@item.ID</td>  
+                <td>@item.Email</td>  
+                <td>@item.Name</td>  
+                <td>@item.PhoneNumber</td>  
+            </tr>  
+        }  
+    </tbody>  
+</table> 
