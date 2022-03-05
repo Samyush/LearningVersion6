@@ -11,9 +11,9 @@ namespace LearningVersion6.Controllers
             return View("AdditionalMethod", users);
         }
 
-        public static List<User> DataStore()
+        private static List<User> DataStore()
         {
-            List<User> dataStores = new List<User>()
+            var dataStores = new List<User>()
             {
                 new User{ID = 1, Name = "Hero"},
                 new User{ID = 2, Name = "Hero"},
