@@ -1,7 +1,16 @@
+using LearningVersion6.Models;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+builder.Services.AddDbContext<Year3DbContext>(options => {
+    options.UseSqlServer(
+        builder.Configuration.GetConnectionString("AppAspConnection"),
+        b => b.MigrationsAssembly(typeof(Year3DbContext).Assembly.FullName));
+});
 
 var app = builder.Build();
 

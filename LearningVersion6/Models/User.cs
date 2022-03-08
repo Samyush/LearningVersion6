@@ -8,8 +8,8 @@ namespace LearningVersion6.Models
         public int ID { get; set; }
         public string? Name { get; set; }
 
-        [MinLength(1), MaxLength(10, ErrorMessage = "The Value is not Right")]
-        public int PhoneNumber { get; set; }
+        //[MinLength(1), MaxLength(10, ErrorMessage = "The Value is not Right")]
+        public string? PhoneNumber { get; set; }
 
         [DataType(DataType.EmailAddress)]
         public string? Email { get; set; }
