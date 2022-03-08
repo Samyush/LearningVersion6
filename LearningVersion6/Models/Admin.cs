@@ -5,7 +5,7 @@ namespace LearningVersion6.Models
     public class Admin
     {
         [Required]
-        public int ID { get; set; }
+        public int Id { get; set; }
         public string? Name { get; set; }
 
         [MinLength(1), MaxLength(10, ErrorMessage = "The Value is not Right")]

@@ -5,6 +5,5 @@ namespace LearningVersion6.Models
         public int Id { get; set; }
         public string ItemName { get; set; }
         public double Rate{ get; set; }
-        public string State { get; set; }
     }   
 }

@@ -15,10 +15,10 @@ namespace LearningVersion6.Controllers
         {
             var dataStores = new List<User>()
             {
-                new User{ID = 1, Name = "Hero"},
-                new User{ID = 2, Name = "Hero"},
-                new User{ID = 3, Name = "Hero"},
-                new User{ID = 4, Name = "Hero"},
+                new User{Id = 1, Name = "Hero"},
+                new User{Id = 2, Name = "Hero"},
+                new User{Id = 3, Name = "Hero"},
+                new User{Id = 4, Name = "Hero"},
             };
             return dataStores;
         }
