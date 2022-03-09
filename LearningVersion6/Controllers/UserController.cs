@@ -46,7 +46,23 @@ public class UserController : Controller
 
         //return Ok("Failed");
     }
+    
+    [HttpPost]
+    [Route("adding")]
+    public async Task<ActionResult<User>> AddingUsersSecondWay(User users, int Id, string Email, string Name, string PhoneNumber)
+    {
+        users.ID = 0;
+        users.Email = Email;
+        users.Name = users.Name;
+        users.PhoneNumber = users.PhoneNumber;
+            
+        _year3DbContext.Users.Add(users);
+        var result = await _year3DbContext.SaveChangesAsync();
+        return Ok(result);
 
+        //return Ok("Failed");
+    }
+    
     public async Task<ActionResult> Delete(int id)
     {
         var toDel = _year3DbContext.Users.Where(x => x.ID == id).First();
