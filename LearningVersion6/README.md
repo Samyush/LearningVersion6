@@ -12,3 +12,8 @@ nuget package manager =>  https://www.nuget.org/packages/Microsoft.EntityFramewo
 common errors for dotnet ef cli => https://stackoverflow.com/questions/43098065/entity-framework-core-dbcontextoptionsbuilder-does-not-contain-a-definition-for
 
 
+-------------------------------
+--- Content for week three -----
+web authentication => https://www.c-sharpcorner.com/UploadFile/a2cc7b/login-form-using-mvc-razor/
+
+
