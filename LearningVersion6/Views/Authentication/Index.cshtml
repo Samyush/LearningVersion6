@@ -1,4 +1,4 @@
-@model dynamic
+@model LearningVersion6.Models.User
 
 @{  
     ViewBag.Title = "login";  
@@ -21,19 +21,19 @@
   
     <table>  
         <tr>  
-            <td>@Html.LabelFor(a => a.username)</td>  
-            <td>@Html.TextBoxFor(a => a.username)</td>  
-            <td>@Html.ValidationMessageFor(a => a.username)</td>  
+            <td>@Html.LabelFor(a => a.Email)</td>  
+            <td>@Html.TextBoxFor(a => a.Email)</td>  
+            <td>@Html.ValidationMessageFor(a => a.Email)</td>  
         </tr>  
         <tr>  
             <td>  
-                @Html.LabelFor(a => a.password)  
+                @Html.LabelFor(a => a.PhoneNumber)  
             </td>  
             <td>  
-                @Html.PasswordFor(a => a.password)  
+                @Html.PasswordFor(a => a.PhoneNumber)  
             </td>  
             <td>  
-                @Html.ValidationMessageFor(a => a.password)  
+                @Html.ValidationMessageFor(a => a.PhoneNumber)  
             </td>  
         </tr>  
         <tr>  

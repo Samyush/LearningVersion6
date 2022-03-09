@@ -1,8 +1,13 @@
 @model dynamic
-
 @{
-    ViewBag.Title = "title";
-    Layout = "_Layout";
-}
-
-<h2>Login Success</h2>
+    ViewBag.Title = "AfterLogin";
+}  
+  
+  
+<h2>After Login Is Success</h2>  
+@*@if (Session["log"] != null)  
+{   
+    <text>  
+        Welcome @Session["log"].ToString()  
+    </text>  
+}*@

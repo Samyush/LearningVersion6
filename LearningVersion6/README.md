@@ -15,5 +15,6 @@ common errors for dotnet ef cli => https://stackoverflow.com/questions/43098065/
 -------------------------------
 --- Content for week three -----
 web authentication => https://www.c-sharpcorner.com/UploadFile/a2cc7b/login-form-using-mvc-razor/
+second link => https://www.ttmind.com/techpost/Creating-a-Log-in-Session-in-ASP-NET-Core
 
 
