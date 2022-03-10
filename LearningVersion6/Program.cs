@@ -22,6 +22,8 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
+
+// all app.Method() are middleware such that it runs or checks upon running of the application
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
@@ -29,6 +31,7 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+app.UseAuthentication();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
