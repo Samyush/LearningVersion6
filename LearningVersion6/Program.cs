@@ -25,6 +25,10 @@ if (!app.Environment.IsDevelopment())
 
 // all app.Method() are middleware such that it runs or checks upon running of the application
 app.UseHttpsRedirection();
+
+//The default file runs the wwwroot index.html file 
+app.UseDefaultFiles();
+
 app.UseStaticFiles();
 
 app.UseRouting();

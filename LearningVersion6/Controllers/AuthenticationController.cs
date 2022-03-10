@@ -15,7 +15,6 @@ public class AuthenticationController : Controller
     //Login in Page
     public IActionResult Index()
     {
-        
         return View();
     }
 
