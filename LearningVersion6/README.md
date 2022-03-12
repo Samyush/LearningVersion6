@@ -23,3 +23,9 @@ __________________________________________________________
 ADDING IMAGE (UPLOAD IMAGE) TO DB AND SERVER FILE
 Link => https://www.c-sharpcorner.com/article/upload-and-display-image-in-asp-net-core-3-1/
 
+
+__________________________________________________________
+
+Difference beteween ADO DAPPER & EF .NET
+https://exceptionnotfound.net/dapper-vs-entity-framework-vs-ado-net-performance-benchmarking/
+
