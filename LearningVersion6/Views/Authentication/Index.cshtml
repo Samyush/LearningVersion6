@@ -20,7 +20,7 @@
     }  
   
     <table>  
-        <tr>  
+       @* <tr>  
             <td>@Html.LabelFor(a => a.username)</td>  
             <td>@Html.TextBoxFor(a => a.username)</td>  
             <td>@Html.ValidationMessageFor(a => a.username)</td>  
@@ -35,7 +35,7 @@
             <td>  
                 @Html.ValidationMessageFor(a => a.password)  
             </td>  
-        </tr>  
+        </tr> *@ 
         <tr>  
             <td></td>  
             <td>  

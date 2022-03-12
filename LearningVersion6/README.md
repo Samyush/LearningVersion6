@@ -11,4 +11,15 @@ nuget package manager =>  https://www.nuget.org/packages/Microsoft.EntityFramewo
 
 common errors for dotnet ef cli => https://stackoverflow.com/questions/43098065/entity-framework-core-dbcontextoptionsbuilder-does-not-contain-a-definition-for
 
+----------------------------------------------------------
+
+dotner ef cli
+https://docs.microsoft.com/en-us/ef/core/cli/dotnet
+
+migration commands => https://docs.microsoft.com/en-us/ef/core/managing-schemas/migrations/?tabs=dotnet-core-cli
+
+__________________________________________________________
+
+ADDING IMAGE (UPLOAD IMAGE) TO DB AND SERVER FILE
+Link => https://www.c-sharpcorner.com/article/upload-and-display-image-in-asp-net-core-3-1/
 

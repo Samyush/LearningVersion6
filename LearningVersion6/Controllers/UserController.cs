@@ -48,7 +48,7 @@ public class UserController : Controller
     }
     
     [HttpPost]
-    [Route("adding")]
+    [Route("addingSecondWay")]
     public async Task<ActionResult<User>> AddingUsersSecondWay(User users, int Id, string Email, string Name, string PhoneNumber)
     {
         users.ID = 0;
