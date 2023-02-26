@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace LearningVersion6.Models
 {
-    public class Year3DbContext : DbContext
+    public sealed class Year3DbContext : DbContext
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Sales> Sales { get; set; }
