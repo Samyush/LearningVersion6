@@ -1,5 +1,6 @@
 using LearningVersion6.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace LearningVersion6.Controllers;
 
@@ -14,7 +15,9 @@ public class UserController : Controller
     
     public async Task<IActionResult> Try()
     {
-        return Ok("is working fine");
+        //implementation of stored procedure
+        var salesList = _year3DbContext.Sales.FromSqlRaw($"FirstStoredProcdure").ToList();
+        return Ok("is working fine " + salesList);
     }
     
     // GET
